@@ -16,17 +16,35 @@ Leer N y mostrar los primeros N términos de Fibonacci.
 
 ```text
 Algoritmo Serie_Fibonacci
-Definir n, i, a, b, temporal Como Entero
-a <- 0
-b <- 1
-Escribir "Cuantos terminos desea mostrar?"
-Leer n
-Para i <- 1 Hasta n Hacer
-    Escribir a
-    temporal <- a + b
-    a <- b
-    b <- temporal
-FinPara
+
+	// Definir las variables para la cantidad de terminos y los valores de Fibonacci
+	Definir n, i, a, b, temporal Como Entero
+
+	// Inicializar los dos primeros valores de la serie
+	a <- 0
+	b <- 1
+
+	// Solicitar la cantidad de terminos que se desean mostrar
+	Escribir "Cuantos terminos desea mostrar?"
+	Leer n
+
+	// Repetir el proceso la cantidad de veces indicada
+	Para i <- 1 Hasta n Hacer
+
+		// Mostrar el valor actual de la serie
+		Escribir a
+
+		// Sumar los dos valores anteriores para obtener el siguiente
+		temporal <- a + b
+
+		// Actualizar el primer valor
+		a <- b
+
+		// Actualizar el segundo valor
+		b <- temporal
+
+	FinPara
+
 FinAlgoritmo
 ```
 
