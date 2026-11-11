@@ -1,0 +1,5 @@
+1. Cambia nombre, curso y fecha en README.md.
+2. Abre los pseudocódigos en PSeInt y ejecútalos antes de entregar.
+3. Revisa los resultados y toma capturas si tu profesor las solicita.
+4. Sube la carpeta taller-logica-programacion completa a tu repositorio, conservando las carpetas.
+5. Este paquete incluye solo los ejercicios 1 al 10, porque son los requeridos según lo indicado por el instructor.
