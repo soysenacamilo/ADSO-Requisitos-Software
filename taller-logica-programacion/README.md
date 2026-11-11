@@ -19,7 +19,7 @@ Desarrollo de los 10 ejercicios básicos e intermedios. Cada ejercicio incluye e
 7. [Calcular el factorial de un número](ejercicios/intermedio/ej07_factorial.md)
 8. [Contar las vocales de una cadena](ejercicios/intermedio/ej08_contar_vocales.md)
 9. [Generar los primeros N términos de Fibonacci](ejercicios/intermedio/ej09_fibonacci.md)
-10. [Validar contraseña con máximo tres intentos](taller-logica-programacion/ejercicios/intermedio/ej10_validar_contrasena.md)
+10. [Validar contraseña con máximo tres intentos](ejercicios/intermedio/ej10_validar_contrasena.md)
 
 ## Diagramas
 Los diagramas PNG están en la carpeta [diagramas](diagramas/).
