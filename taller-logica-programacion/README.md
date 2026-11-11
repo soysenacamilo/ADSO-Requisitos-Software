@@ -1,8 +1,13 @@
 # Taller de lógica de programación
 
-**Estudiante:** Juan Camilo Jimenez Albor
-**Ficha:**  3601847
-**Fecha:** 11/11/2026
+**Estudiante:** 
+Juan Camilo Jimenez Albor
+
+**Ficha:**  
+3601847
+
+**Fecha:** 
+11/11/2026
 
 ## Descripción
 Desarrollo de los 10 ejercicios básicos e intermedios. Cada ejercicio incluye enunciado, análisis, pseudocódigo para PSeInt y diagrama de flujo.
