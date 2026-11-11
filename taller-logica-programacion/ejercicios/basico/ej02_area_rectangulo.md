@@ -16,15 +16,28 @@ Leer base y altura y calcular el área y el perímetro.
 
 ```text
 Algoritmo Area_Perimetro_Rectangulo
-Definir base, altura, area, perimetro Como Real
-Escribir "Ingrese la base:"
-Leer base
-Escribir "Ingrese la altura:"
-Leer altura
-area <- base * altura
-perimetro <- 2 * (base + altura)
-Escribir "El area es: ", area
-Escribir "El perimetro es: ", perimetro
+
+	// Definir las variables para guardar la base, altura, area y perimetro
+	Definir base, altura, area, perimetro Como Real
+
+	// Solicitar y guardar la base del rectangulo
+	Escribir "Ingrese la base:"
+	Leer base
+
+	// Solicitar y guardar la altura del rectangulo
+	Escribir "Ingrese la altura:"
+	Leer altura
+
+	// Calcular el area multiplicando la base por la altura
+	area <- base * altura
+
+	// Calcular el perimetro sumando la base y la altura y multiplicando por 2
+	perimetro <- 2 * (base + altura)
+
+	// Mostrar los resultados obtenidos
+	Escribir "El area es: ", area
+	Escribir "El perimetro es: ", perimetro
+
 FinAlgoritmo
 ```
 
