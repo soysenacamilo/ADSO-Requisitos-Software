@@ -16,15 +16,28 @@ Leer tres notas y calcular su promedio.
 
 ```text
 Algoritmo Calcular_Promedio
-Definir nota1, nota2, nota3, promedio Como Real
-Escribir "Ingrese la primera nota:"
-Leer nota1
-Escribir "Ingrese la segunda nota:"
-Leer nota2
-Escribir "Ingrese la tercera nota:"
-Leer nota3
-promedio <- (nota1 + nota2 + nota3) / 3
-Escribir "El promedio es: ", promedio
+
+	// Declarar las variables que almacenan las notas y el promedio
+	Definir nota1, nota2, nota3, promedio Como Real
+
+	// Solicitar y guardar la primera nota
+	Escribir "Ingrese la primera nota:"
+	Leer nota1
+
+	// Solicitar y guardar la segunda nota
+	Escribir "Ingrese la segunda nota:"
+	Leer nota2
+
+	// Solicitar y guardar la tercera nota
+	Escribir "Ingrese la tercera nota:"
+	Leer nota3
+
+	// Sumar las tres notas y dividir el resultado entre 3
+	promedio <- (nota1 + nota2 + nota3) / 3
+
+	// Mostrar el promedio obtenido
+	Escribir "El promedio es: ", promedio
+
 FinAlgoritmo
 ```
 
