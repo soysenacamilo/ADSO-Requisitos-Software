@@ -16,11 +16,20 @@ Leer temperatura Celsius y convertirla a Fahrenheit.
 
 ```text
 Algoritmo Celsius_A_Fahrenheit
-Definir celsius, fahrenheit Como Real
-Escribir "Ingrese la temperatura en Celsius:"
-Leer celsius
-fahrenheit <- celsius * 9 / 5 + 32
-Escribir "Temperatura en Fahrenheit: ", fahrenheit
+
+	// Definir las variables para almacenar las temperaturas
+	Definir celsius, fahrenheit Como Real
+
+	// Solicitar y guardar la temperatura en grados Celsius
+	Escribir "Ingrese la temperatura en Celsius:"
+	Leer celsius
+
+	// Convertir la temperatura de Celsius a Fahrenheit
+	fahrenheit <- celsius * 9 / 5 + 32
+
+	// Mostrar la temperatura convertida
+	Escribir "Temperatura en Fahrenheit: ", fahrenheit
+
 FinAlgoritmo
 ```
 
