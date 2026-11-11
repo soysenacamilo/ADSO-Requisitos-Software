@@ -16,18 +16,36 @@ Leer un entero no negativo y calcular su factorial.
 
 ```text
 Algoritmo Calcular_Factorial
-Definir n, i, factorial Como Entero
-factorial <- 1
-Escribir "Ingrese un numero entero no negativo:"
-Leer n
-Si n >= 0 Entonces
-    Para i <- 1 Hasta n Hacer
-        factorial <- factorial * i
-    FinPara
-    Escribir "El factorial es: ", factorial
-SiNo
-    Escribir "El numero debe ser no negativo"
-FinSi
+
+	// Definir las variables para el numero, contador y factorial
+	Definir n, i, factorial Como Entero
+
+	// Inicializar el factorial en uno
+	factorial <- 1
+
+	// Solicitar y guardar un numero entero no negativo
+	Escribir "Ingrese un numero entero no negativo:"
+	Leer n
+
+	// Comprobar que el numero sea mayor o igual a cero
+	Si n >= 0 Entonces
+
+		// Recorrer los numeros desde 1 hasta el numero ingresado
+		Para i <- 1 Hasta n Hacer
+
+			// Multiplicar el factorial por cada numero del recorrido
+			factorial <- factorial * i
+
+		FinPara
+
+		// Mostrar el resultado del factorial
+		Escribir "El factorial es: ", factorial
+
+	// Si el numero es negativo, mostrar un mensaje de error
+	SiNo
+		Escribir "El numero debe ser no negativo"
+	FinSi
+
 FinAlgoritmo
 ```
 
