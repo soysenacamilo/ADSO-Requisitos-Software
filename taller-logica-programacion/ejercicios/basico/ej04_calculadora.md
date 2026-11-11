@@ -16,34 +16,58 @@ Leer dos números y una opción para sumar, restar, multiplicar o dividir.
 
 ```text
 Algoritmo Calculadora_Basica
-Definir numero1, numero2, resultado Como Real
-Definir opcion Como Entero
-Escribir "Ingrese el primer numero:"
-Leer numero1
-Escribir "Ingrese el segundo numero:"
-Leer numero2
-Escribir "1. Sumar  2. Restar  3. Multiplicar  4. Dividir"
-Leer opcion
-Segun opcion Hacer
-    1:
-        resultado <- numero1 + numero2
-        Escribir "Resultado: ", resultado
-    2:
-        resultado <- numero1 - numero2
-        Escribir "Resultado: ", resultado
-    3:
-        resultado <- numero1 * numero2
-        Escribir "Resultado: ", resultado
-    4:
-        Si numero2 <> 0 Entonces
-            resultado <- numero1 / numero2
-            Escribir "Resultado: ", resultado
-        SiNo
-            Escribir "No se puede dividir entre cero"
-        FinSi
-    De Otro Modo:
-        Escribir "Opcion no valida"
-FinSegun
+
+	// Definir las variables para los numeros y el resultado
+	Definir numero1, numero2, resultado Como Real
+
+	// Definir la variable que guardara la opcion seleccionada
+	Definir opcion Como Entero
+
+	// Solicitar y guardar el primer numero
+	Escribir "Ingrese el primer numero:"
+	Leer numero1
+
+	// Solicitar y guardar el segundo numero
+	Escribir "Ingrese el segundo numero:"
+	Leer numero2
+
+	// Mostrar las operaciones disponibles
+	Escribir "1. Sumar  2. Restar  3. Multiplicar  4. Dividir"
+	Leer opcion
+
+	// Seleccionar la operacion que se desea realizar
+	Segun opcion Hacer
+
+		// Realizar la suma de los dos numeros
+		1:
+			resultado <- numero1 + numero2
+			Escribir "Resultado: ", resultado
+
+		// Realizar la resta de los dos numeros
+		2:
+			resultado <- numero1 - numero2
+			Escribir "Resultado: ", resultado
+
+		// Realizar la multiplicacion de los dos numeros
+		3:
+			resultado <- numero1 * numero2
+			Escribir "Resultado: ", resultado
+
+		// Comprobar que el segundo numero no sea cero antes de dividir
+		4:
+			Si numero2 <> 0 Entonces
+				resultado <- numero1 / numero2
+				Escribir "Resultado: ", resultado
+			SiNo
+				Escribir "No se puede dividir entre cero"
+			FinSi
+
+		// Mostrar un mensaje si se selecciona una opcion incorrecta
+		De Otro Modo:
+			Escribir "Opcion no valida"
+
+	FinSegun
+
 FinAlgoritmo
 ```
 
