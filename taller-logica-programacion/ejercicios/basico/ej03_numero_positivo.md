@@ -16,18 +16,29 @@ Leer un número y determinar si es positivo, negativo o cero.
 
 ```text
 Algoritmo Numero_Positivo_Negativo
-Definir numero Como Real
-Escribir "Ingrese un numero:"
-Leer numero
-Si numero > 0 Entonces
-    Escribir "El numero es positivo"
-SiNo
-    Si numero < 0 Entonces
-        Escribir "El numero es negativo"
-    SiNo
-        Escribir "El numero es cero"
-    FinSi
-FinSi
+
+	// Definir la variable que almacenara el numero ingresado
+	Definir numero Como Real
+
+	// Solicitar y guardar un numero
+	Escribir "Ingrese un numero:"
+	Leer numero
+
+	// Comprobar si el numero es mayor que cero
+	Si numero > 0 Entonces
+		Escribir "El numero es positivo"
+
+	// Si no es positivo, comprobar si es menor que cero
+	SiNo
+		Si numero < 0 Entonces
+			Escribir "El numero es negativo"
+
+		// Si no es mayor ni menor que cero, significa que es cero
+		SiNo
+			Escribir "El numero es cero"
+		FinSi
+	FinSi
+
 FinAlgoritmo
 ```
 
