@@ -1,12 +1,14 @@
 # Taller de lógica de programación
 
 **Estudiante:** 
+
 Juan Camilo Jimenez Albor
 
 **Ficha:**  
 3601847
 
 **Fecha:** 
+
 11/11/2026
 
 ## Descripción
