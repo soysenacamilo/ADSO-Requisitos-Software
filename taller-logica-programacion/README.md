@@ -1,4 +1,4 @@
-# Taller de lógica de programación
+# Taller2
 
 **Estudiante:**  Juan Camilo Jimenez Albor
 
